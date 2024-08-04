@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Data Analysis Report</h1>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Rows of the Data</h2>
+        <div>{{ first_rows|safe }}</div>
+        <hr>
+
+        <h2>Descrpitive Statistics Analysis</h2>
+        <div>{{ summary_stats|safe }}</div>
+        <hr>
+
+        <h2>Missing Values in Dataset</h2>
+        <div>{{ missing_values|safe }}</div>
+        <hr>
+
+        <h2>Data Visualizations</h2>
+        {% for plot in plots %}
+            <div>
+                <img src="{{ plot }}" alt="Plot">
+            </div>
+        {% endfor %}
+        <hr>
+    </div>
+</body>
+</html>
+

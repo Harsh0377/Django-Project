@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+    <link rel="stylesheet" href='/static/style.css'/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Data Analysis Interface</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p>(Note: Upload only csv file)</p>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.file }}
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
+
