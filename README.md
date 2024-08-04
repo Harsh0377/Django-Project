@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
 <h4>Pre-requisite :</h4>
 <ul>
   <li>Familiar with Python programming and Django framework</li>
-  <li>Python install on the pc</li>
+  <li>Python, Django install on the pc</li>
   <li>Visual Studio or any other IDE install in computer</li>
 </ul>  
 
@@ -44,7 +44,19 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
 <hr>
 
 <h4>Setup Instruction</h4>
-<ul>
-  <li></li>
-</ul>
+<p>Open cmd and check python and django install in the system.</p><br>
+<p>If install you are ready to go, if not, install python.</p><br>
+<p>After install python type "pip install django" in cmd to install django.</p>
+<ol>
+  <li>First open vs code in a new window and type "django-admin startproject v3project" in terminal. Here v3project is the project folder name.</li>
+  <li>Open the "v3project" folder directory and create project app "myapp" inside it using terminal, run command "python manage.py startapp myapp"</li>
+  <li>Make static(for css file), templates(for html file), media(for storing the visual figure) folder inside v3project folder.</li>
+  <li>Download the "v3project.zip" file and copy the "results.html", "upload.html" file inside the templates folder, "style.css" into static folder.</li>
+  <li>Create a forms.py file to take upload file inside the myapp folder, or copy the code of "forms.py" inside it.</li>
+  <li>Link the myapp(make urls.py file inside the folder) to project folder using "urls.py", or copy the code in "v3project/urls.py" and "myapp/urls.py" from zip file that download.</li>
+  <li>At last come the logic of visualization, analysis we are going to perform on the data. This all are going to written in "v3project/views.py"</li>
+  <li>Copy all the content inside the views.py to the above directory.</li>
+  <li>After doing all the above steps run the mange.py file in the terminal "python manage.py runserver"</li>
+  <li>Congrats !! There your's website.</li>
+</ol>
 
