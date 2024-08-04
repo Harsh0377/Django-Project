@@ -56,6 +56,7 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
   <li>Link the myapp(make urls.py file inside the folder) to project folder using "urls.py", or copy the code in "v3project/urls.py" and "myapp/urls.py" from zip file that download.</li>
   <li>At last come the logic of visualization, analysis we are going to perform on the data. This all are going to written in "v3project/views.py"</li>
   <li>Copy all the content inside the views.py to the above directory.</li>
+  <li>Configure the "setting.py" file inside the v3project.</li>
   <li>After doing all the above steps run the mange.py file in the terminal "python manage.py runserver"</li>
   <li>Congrats !! There your's website.</li>
   <li>Use sample dataset "Twitter_posts.csv" to run to check the output.</li>
