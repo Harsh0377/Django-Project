@@ -44,8 +44,8 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
 <hr>
 
 <h4>Setup Instruction</h4>
-<p>Open cmd and check python and django install in the system.</p><br>
-<p>If install you are ready to go, if not, install python.</p><br>
+<p>Open cmd and check python and django install in the system.</p>
+<p>If install you are ready to go, if not, install python.</p>
 <p>After install python type "pip install django" in cmd to install django.</p>
 <ol>
   <li>First open vs code in a new window and type "django-admin startproject v3project" in terminal. Here v3project is the project folder name.</li>
