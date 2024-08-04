@@ -58,5 +58,6 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
   <li>Copy all the content inside the views.py to the above directory.</li>
   <li>After doing all the above steps run the mange.py file in the terminal "python manage.py runserver"</li>
   <li>Congrats !! There your's website.</li>
+  <li>Use sample dataset "Twitter_posts.csv" to run to check the output.</li>
 </ol>
 
