@@ -30,13 +30,21 @@ https://github.com/user-attachments/assets/40fbc743-6f9d-48c8-b821-2d959f2c446e
 
 <hr>
 
-<h4>Setup Instruction</h4>
-<p>(Note: All the file are stored inside the v3project.zip file.)</p>
+<h4>Instruction</h4>
+<p>(Note: All the file are stored inside the "v3project.zip" file.)</p>
 <ul>
   <li>"Upload.html" file is the user interface visible to user.</li>
   <li>"Result.html" file display output to the user at the end.</li>
   <li>"style.css" file is for styling.</li>
+  <li>"forms.py" file to create form</li>
+  <li>"urls.py" is the myapp(inside app folder) of the project.</li>
+  <li>"views.py" in this we going to perform some operation related to analysis and visualization on dataset.</li>
+  <li>"Twitter_posts.csv" is for sample data on which operation is perform.</li>
+</ul>
+<hr>
+
+<h4>Setup Instruction</h4>
+<ul>
   <li></li>
 </ul>
-
 
